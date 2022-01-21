@@ -21,7 +21,7 @@ class TelaFicha:
         
          #layout
          layout = [ [sg.Text('Nome: ', size=(6,0)), sg.Input(size=(16,0),key='nome')],
-           [sg.Text('Idade: ', size=(6,0)), sg.Input(size=(3,0),key='idade'), sg.Listbox(estilos, size=(15,0), key='cor')],
+           [sg.Text('Idade: ', size=(6,0)), sg.Input(size=(3,0),key='idade'),
            [sg.Text('Qual o gênero do seu personagem?'),sg.Radio('Masculino', 'sexos',key='masculino'), sg.Radio('Feminino', 'sexos',key='feminino')],
            [sg.Text('Outro: ',size=(6,0)), sg.Input(size=(16,0), key='outro')],
            [sg.Text('Qual a sexualidade do seu personagem?')],
